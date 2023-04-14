@@ -1,0 +1,22 @@
+body {
+    height: 97vh;
+  /*background-color: black;
+    background-image: url(imagens/wallpaper002.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+     /*conteudo vai aparecer com rolagem sem quebrar a img*/
+  /*background-attachment: fixed; /*deixa a img fixa na tela*/
+     /*shorthand - background
+    sequencia certa é:display:
+    color > image > position > repeat > [size(não funciona, tive que colocar embaixo)] > attachment;*/
+    background: black url(imagens/wallpaper002.jpg) center no-repeat fixed;background-size: cover;
+    background-attachment: fixed;
+}
+main {
+    background-color: white;
+    max-width: 400px; /*adpta o conteudo para rolar por cima da img*/
+    padding: 10px;
+    margin: auto;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+}
