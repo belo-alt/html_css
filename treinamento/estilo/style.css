@@ -19,7 +19,8 @@
 }
 
 body {
-    background-image: url(imagens/);
+    height: 97vh;
+    background-color: var(--cor0);
 }
 main {
     background-color: white;
@@ -27,16 +28,26 @@ main {
     padding: 10px;
     margin: auto;
     border: 1px solid darkblue;
-    border-radius: 15px;
+    border-radius: 10px;
+}
+header {
+    background-image: url(logop350.png);
 }
 h1 {
-    font-family: var(--fonte-padrao);
-    font-weight: bolder;
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
     color:var(--cor5);
 }
 h2 {
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
     color: var(--cor5);
 }
 h3 {
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
     color: var(--cor5);
+}
+p {
+    font-family: var(--fonte-padrao);
 }
