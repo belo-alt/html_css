@@ -1,0 +1,43 @@
+<header>
+        <h1>DSP DESENVOLVIMENTO DE SITES E PROGRAMAS</h1>
+        <p>Aqui na DSP desenvolvemos um site que atende todas as sua necessidades.</p>
+    </header>
+    <div class="link">
+        <nav>
+            <a href="dsp.html">Home</a>
+            <a href="tabela.html">Média de Investimento</a>
+            <a href="#">Fale Conosco</a>
+        </nav>
+    </div>
+    <main>
+        <article>
+            
+            <picture>
+            <source media="(max-width:670px)" srcset="imagens/escritorio-p.png">
+            <img src="imagens/escritorio-g.png" alt="Imagem da SSL">
+        </picture>
+        <h1>Potencialize seu negócio com um site proficional</h1>
+        <p>Criaremos a melhor experiência para seu cliente, com todos os recursos cuidadosamente selecionados e testados.</p>
+        <p>Todo o projeto é desenvolvido para que tenha um bom posicionamento no <strong>GOOGLE</strong>.</p>
+        <p>Seguimos todos os critérios e boas práticas de programação para que seu site seja entregue totalmente otimizado <a href="https://resultadosdigitais.com.br/marketing/o-que-e-seo/#:~:text=SEO%20%C3%A9%20a%20sigla%20de,outros%20buscadores%2C%20gerando%20tr%C3%A1fego%20org%C3%A2nico." target="_blank" class="externo">(SEO)</a>.</p>
+                
+        SEGURANÇA
+                
+        O seu site já vem com <a href="https://serasa.certificadodigital.com.br/blog/mercado/o-que-e-o-certificado-digital-ssl-e-como-ele-pode-proteger-informacoes/#:~:text=O%20certificado%20SSL%20protege%20informa%C3%A7%C3%B5es,servidor%20que%20hospeda%20o%20site." target="_blank" class="externo">certificado digital</a> instalado. Trata-se do certrificado SSL que habilitará o HTTPS. Toda conexão entre seus cientes e o servidor serão totalmente cripitografadas.</p>
+                
+        <picture>
+            <source media="(max-width:670px)" srcset="imagens/segurancassl-p.png">
+            <img src="imagens/segurancassl-ful.jfif" alt="Imagem da SSL">
+        </picture>
+
+        <h3>Assista esse video e veja o quanto a presença do seu negócio no google é importante.</h3>
+
+        <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aTg7Jmi3IK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <p>Agora você sabe da importancia do seu negócio ter um site para marcar presença na web. Faça seu orçamento e mãos na massa, vamos logo fazer esse site e aumentar as vendas do seu serrviço/produto agora mesmo.</p>
+    </main>
+    <footer>
+        <p>Site criado por Marcelo Belo, CEO fundor da DSP Desenv de Sites e Programas.</p>
+    </footer>
+</body>
