@@ -23,6 +23,7 @@ body {
     background-color: var(--cor0);
 }
 main {
+    background-image: url(imagens/wallpaper004.jpg);
     text-align: justify;
     background-color: white;
     max-width: 400px; /*adpta o conteudo para rolar por cima da img*/
