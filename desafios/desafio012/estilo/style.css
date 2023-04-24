@@ -1,13 +1,25 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family= Passion +One & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+  :root {
+    --fonte1: verdana, geneva, tahoma, sanserif;
+    --fonte2: 'Passion One', cursiva;
+    --fonte3: 'Dancing Script', cursiva;
+  }
+
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 12m;
 }
 
 html, body {
     min-height: 100vh;
     background-color: rgb(14, 13, 13);
+    font-family: var(--fonte1);
 }
 
 header {
@@ -19,6 +31,8 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vh;
 }
 
 header > p {
@@ -40,6 +54,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vh;
 }
 
 section.normal {
@@ -53,7 +69,8 @@ section.imagem {
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.146);
 }
 
