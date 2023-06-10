@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exemplo de formulário</title>
 </head>
 <body>
-    
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="iemail">E-mail</label>
+            <input type="email" name="email" id="iemail" autocomplete="email" required>
+        </p>
+        <p>
+            <label for="itelefone">Telefone</label>
+            <input type="tel" name="Tel" id="itel" autocomplete="tel" required pattern="^[0-9]{4}-[0-9]{4}$">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>
