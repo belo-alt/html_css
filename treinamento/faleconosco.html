@@ -13,9 +13,35 @@
         <header>
             <div class="cabecalho">
                 <img src="imagens/logoEscritorioF300.jpeg" alt="Logomarca do site">
-                <h1>Preencha o formulário abaixo e nos conte como podemos ajuda-lo.</h1>
-            </div>
         </header>
+            </div>
+            <h3>Fale conosco!</h3>
+            <p>Preencha o formulário abaixo e nos conte como podemos ajuda-lo.</p>
+                <form action="cadastro.php" method="get" autocomplete="on">
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+                        <p>
+                            <label for="iemail">E-mail</label>
+                            <input type="email" name="email" id="iemail" autocomplete="email" required>
+                        </p>
+                        <p>
+                            <label for="itelefone">Telefone</label>
+                            <input type="tel" name="Tel" id="itel" autocomplete="tel" required pattern="^[0-9]{4}-[0-9]{4}$" placeholder="xxxx-xxxx">
+                        </p>
+                    </fieldset>
+                    <p>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </p>
+                </form>
+            <div class="link">
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="tabela.html">Média de Investimento</a>
+                    <a href="faleconosco.html">Fale Conosco</a>
+                </nav>
+            </div>    
+        
     </body>
 </main>
 </html>

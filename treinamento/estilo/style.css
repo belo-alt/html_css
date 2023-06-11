@@ -36,7 +36,7 @@ main {
     padding: 10px;
     margin: auto;
     margin-bottom: 10px;
-    border: 1px solid darkblue;
+    border: 1px solid white;
     border-radius: 10px;
 }
 header {
@@ -79,7 +79,7 @@ p {
 }
 
 nav {
-    background-color: var(--cor0);
+    background-color: ;
     padding: 5px 4px 4px 5px;
     border-radius: 2px;
 }
@@ -88,16 +88,22 @@ nav > a {
     color: var(--cor5);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    box-shadow: 3px 3px 2px 2px black;;
+    box-shadow: 2px 2px 1px 1px black;;
     padding: 5px;
     border: var(--cor4);
     border-radius: 4px;
+    background-color: var(--cor0);
+}
+a:hover {
+    background-color: blue;
+    color: white;
 }
 article {
     border: 2px solid var(--cor0);
     border-radius: 10px;
     padding: 0px 5px 0px 5px;
     margin: 0px 20px 0px 20px;
+    background-color: var(--cor0);
 }
 footer {
     text-align: justify;
@@ -105,6 +111,6 @@ footer {
     max-width: 400px; /*adpta o conteudo para rolar por cima da img*/
     padding: 0px 10px 0px 10px;
     margin: auto;
-    border: 1px solid darkblue;
+    border: 1px solid white;
     border-radius: 10px;
 }
