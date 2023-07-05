@@ -10,10 +10,14 @@
 
 html, body {
     width: 100vw;
-    height: 100vh;background-color: #233eff;
+    height: 100vh;
+    background-color: #233eff;
+    background-size: contain; /*para a img ficar 100% na tela*/
+    background-repeat: no-repeat;
 }
 
 h1 {
     color: white;
     text-shadow: 2px 2px 0px #0c1453; /*sombra*/
+    padding: 10px;
 }
