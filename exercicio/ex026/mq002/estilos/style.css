@@ -12,7 +12,7 @@ html, body {
     width: 100vw;
     height: 100vh;
     background-color: #233eff;
-    background-size: contain; /*para a img ficar 100% na tela*/
+    background-size: contain; /*para a img ficar 100% na tela, o cover também funciona mais container é melhor*/
     background-repeat: no-repeat;
 }
 
