@@ -53,7 +53,7 @@ Tv grandes telas: Acima de 1200px
     img#tv { display: none; }
     }
 
-@media  (min-width: 992px) and (max-width: 1200px) {/*Desktop*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {/*Desktop*/
     body {
         background-image: url(../imagens/back-pc.jpg);
     }
@@ -64,7 +64,7 @@ Tv grandes telas: Acima de 1200px
     img#tv { display: none; }  
 }
 
-@media screen and(min-width: 1200px) {/*Grandes Telas*/
+@media screen and (min-width: 1200px) {/*Grandes Telas*/
     body {
         background-image: url(../imagens/back-tv.jpg);
     }  
