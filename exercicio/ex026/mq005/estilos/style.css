@@ -19,8 +19,22 @@ header > h1 {
     text-align: center;
 }
 
-menu {
+span#burguer {
+    background-color: rgb(100, 94, 94);
     display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none; /*Display-block o menu é um bloco a parte*/
 }
 
 menu > ul {
@@ -30,7 +44,7 @@ menu > ul {
 menu > ul > li > a {
     display: block;
     padding: 10px;
-    text-decoration: none;
+    text-decoration: none; /*p/tirar o trço abaixo do lik*/
     text-align: center;
     background-color: rgb(112, 107, 107);
     color: white;
