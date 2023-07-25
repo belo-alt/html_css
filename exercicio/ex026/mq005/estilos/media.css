@@ -8,8 +8,14 @@ Desk top: de 992px até 1200px
 Grandes telas: Acima de 1200px
 */
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 768px) {
     span#burger {
         display: none;
+    }
+    menu {
+        display: block;
+    }
+    menu > ul > li {
+        display: inline-block;
     }
 }
